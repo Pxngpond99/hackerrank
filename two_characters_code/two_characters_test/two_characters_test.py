@@ -1,4 +1,4 @@
-from two_characters.two_characters import alternate
+from ..two_characters.two_characters import alternate
 import unittest
 
 class TwoCharatersTest(unittest.TestCase):

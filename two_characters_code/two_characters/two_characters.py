@@ -1,16 +1,3 @@
-import math
-import os
-import random
-import re
-import sys
-
-#
-# Complete the 'alternate' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts STRING s as parameter.
-#
-
 def alternate(s):
     # Write your code here
     set_of_char = set([i for i in s])
@@ -32,17 +19,3 @@ def alternate(s):
                 if length_of_s < len(length):
                     length_of_s = len(length)
     return length_of_s
-                    
-                    
-if __name__ == '__main__':
-    # fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    l = int(input().strip())
-
-    s = input()
-
-    result = alternate(s)
-    print(result)
-    # fptr.write(str(result) + '\n')
-
-    # fptr.close()

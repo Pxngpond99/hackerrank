@@ -1,4 +1,4 @@
-from funny_string.funny_string import funnyString
+from ..funny_string.funny_string import funnyString
 import unittest
 
 class FunnyStringTest(unittest.TestCase):

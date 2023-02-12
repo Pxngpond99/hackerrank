@@ -1,4 +1,4 @@
-from grid_challenge.grid_challenge import gridChallenge
+from ..grid_challenge.grid_challenge import gridChallenge
 import unittest
 
 class FunnyStringTest(unittest.TestCase):

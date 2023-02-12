@@ -1,4 +1,4 @@
-from FizzBuzz.FizzBuzz import FizzBuzz
+from ..FizzBuzz.FizzBuzz import FizzBuzz
 import unittest
 
 class FizzBuzzTest(unittest.TestCase):

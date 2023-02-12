@@ -1,4 +1,4 @@
-from caesar_cipher.caesar_cipher import caesarCipher
+from ..caesar_cipher.caesar_cipher import caesarCipher
 import unittest
 
 class CaesarCipherTest(unittest.TestCase):

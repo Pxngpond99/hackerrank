@@ -1,4 +1,4 @@
-from cat_and_mouse.cat_and_mouse import catAndMouse
+from ..cat_and_mouse.cat_and_mouse import catAndMouse
 import unittest
 
 class CatAndMouseTest(unittest.TestCase):

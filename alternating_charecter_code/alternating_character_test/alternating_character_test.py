@@ -1,4 +1,4 @@
-from alternating_character.alternating_character import alternatingCharacters
+from ..alternating_character.alternating_character import alternatingCharacters
 import unittest
 
 class AlternatingCharectersTest(unittest.TestCase):
